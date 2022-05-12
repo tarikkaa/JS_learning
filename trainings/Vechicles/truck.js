@@ -1,4 +1,5 @@
 import { Vechicle } from "./vechicle.js";
+
 class Truck extends Vechicle{
     constructor(manufacturer, year, size, speed){
         super(manufacturer, "red", year);
@@ -25,5 +26,7 @@ let man = new Truck("man", 3030, 20, 300);
 man.truckInfo();
 Truck.truckSize(21);
 console.log(`(Truck static property)Type is ${Truck.type}`);
+
+
 
 

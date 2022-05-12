@@ -69,4 +69,4 @@ try{
 vechicles.push("Audi");
 vechicles.splice(1, 2, "Maserati");
 
-console.log(vechicles)
+console.log(vechicles);

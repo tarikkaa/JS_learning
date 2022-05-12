@@ -4,6 +4,7 @@ export class Vechicle {
         this.manufacturer = manufacturer;
         this.color = color;
         this.year = year;
+        this.price = 2000;
     }
     static compareSpeed(sp1, sp2){
         let speed = sp1 === sp2;
@@ -16,6 +17,9 @@ export class Vechicle {
     year: ${this.year};`);
     }    
 
+    getPrice(){
+        return this.price;
+    }
 }
 
 
